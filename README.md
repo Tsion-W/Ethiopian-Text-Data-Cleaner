@@ -18,3 +18,9 @@ A Python-based tool for cleaning and preprocessing Ethiopian language text data 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Tsion-W/ethiopian-text-cleaner.git
+
+## Contributing
+Contributions are welcome! Please fork the repo, make your changes, and submit a pull request with clear descriptions.
+
+## License
+This project is licensed under the MIT License.
