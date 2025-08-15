@@ -17,8 +17,14 @@ A Python-based tool for cleaning and preprocessing Ethiopian language text data 
 - Pandas  
 - Regex
 
+## Screenshot / Demo
+![Cleaner Preview](screenshots/cleaner_preview.png)  
+
 ## Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Ethiopian-Text-Data-Cleaner.git
-This project is licensed under the MIT License.
+```bash
+# Clone the repository
+git clone https://github.com/Tsion-W/Ethiopian-Text-Data-Cleaner.git
+# Install dependencies
+pip install -r requirements.txt
+# Run the cleaner
+python cleaner.py --input input_file.txt --output output_file.txt
