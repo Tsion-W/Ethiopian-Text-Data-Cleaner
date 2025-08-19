@@ -2,29 +2,33 @@
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
 
-## Overview
-A Python-based tool for cleaning and preprocessing Ethiopian language text data (Amharic, Geez, etc.) for NLP and data analytics projects.
+## 📖 Overview
+A Python-based tool for **cleaning and preprocessing Ethiopian language text data** (Amharic, Geez, etc.) for NLP and analytics projects.  
+This project helps researchers, linguists, and data scientists prepare Ethiopian corpora for downstream tasks.
 
-## Features
-- Removes unwanted symbols, special characters, and extra spaces
-- Normalizes text for consistent formatting
-- Supports multiple Ethiopian scripts
-- Prepares text for NLP pipelines or analytics workflows
+## ✨ Features
+- Removes unwanted symbols, punctuation, and extra spaces  
+- Normalizes whitespace  
+- Supports Amharic, Geez, and mixed-script text  
+- Normalizes Geez numerals to Arabic numerals  
+- Provides both **Python API** and **CLI** for flexibility  
 
-## Tech Stack
+## 🛠 Tech Stack
 - Python  
 - Pandas  
-- Regex
+- Regex  
 
-## Screenshot / Demo
-![Cleaner Preview](screenshots/cleaner_preview.png)  
+## 📸 Demo
 
-## Usage
-```bash
-# Clone the repository
-git clone https://github.com/Tsion-W/Ethiopian-Text-Data-Cleaner.git
-# Install dependencies
-pip install -r requirements.txt
-# Run the cleaner
-python cleaner.py --input input_file.txt --output output_file.txt
+### Before Cleaning
+![Before](screenshots/before.png)
+
+### After Cleaning
+![After](screenshots/after.png)
+
+### Terminal Run
+![Terminal](screenshots/terminal_run.png)
+
+**Sample input text (`sample_text.txt`):**
